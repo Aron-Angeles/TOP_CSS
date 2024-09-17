@@ -1,0 +1,36 @@
+:root{
+    --main-background: rgb(28, 28, 28);
+    --sub-color-red: rgb(255,65,65);
+    --sub-color-blue: rgb(68,153,229);
+    --sub-color-green: rgb(31,200,38);
+    --sub-color-yellow: rgb(244,215,156);
+}
+
+* {
+    background-color: var(--main-background);
+}
+
+h1{
+    color: var(--sub-color-red);
+}
+
+.section{
+    font-size: 25px;
+}
+
+.section.header{
+    color: var(--sub-color-green)
+}
+
+.section.content{
+    color: var(--sub-color-blue)
+}
+
+.section#specific{
+    color: var(--sub-color-yellow);
+}
+
+.parent .first_child{
+    font-size: 100px;
+    text-align: center;
+}
