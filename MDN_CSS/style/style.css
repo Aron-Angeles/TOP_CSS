@@ -1,0 +1,66 @@
+:root{
+    --main-background: rgb(28, 28, 28);
+    --sub-color-red: rgb(255,65,65);
+    --sub-color-blue: rgb(68,153,229);
+    --sub-color-green: rgb(31,200,38);
+    --sub-color-yellow: rgb(244,215,156);
+}
+
+body{
+    padding: 0px 30%;
+}
+
+* {
+    background-color: var(--main-background);
+    color: white;
+}
+
+section, ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+
+p,
+li{
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-info {
+    color: var(--sub-color-yellow);
+    font-size: 50px;
+    border-style: solid;
+    border-color: var(--sub-color-red);
+}
+
+.job-title, .contact{
+    font-size: 29px;
+    margin-top: 0%;
+}
+
+.name{
+    border-width: 0px;
+    margin-bottom: 5px;
+}
+
+.contact{
+    padding: 10px;
+    border-width: 2px 0px 0px 0px;
+}
+
+#bottom-text{
+    margin-bottom: 50px;
+}
+
+.contact-info ul li {
+    padding: 0% 35%;
+    text-align: left;
+}
+
+
+
+
+
+
+
