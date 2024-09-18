@@ -34,3 +34,14 @@ h1{
     font-size: 100px;
     text-align: center;
 }
+
+.same .still {
+    color:var(--sub-color-red);
+    font-size: 54px;
+}
+
+.same.still {
+    color:var(--sub-color-yellow);
+}
+
+
